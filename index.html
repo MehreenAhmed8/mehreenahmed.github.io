@@ -25,20 +25,18 @@
          Sticky, transparent at top → glass on scroll
     ========================== -->
     <header class="site-header" id="siteHeader">
-        <nav class="navbar" aria-label="Primary">
-            <a href="#hero" class="logo">Mehreen Ahmed</a>
-
-            <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"
-                aria-controls="navLinks">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <nav class="navbar" aria-label="Primary">
+                <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="navLinks">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
             <ul class="nav-links" id="navLinks">
                 <li><a href="#about" data-section="about">About</a></li>
                 <li><a href="#experience" data-section="experience">Experience</a></li>
-                <li><a href="#projects" data-section="projects">Projects</a></li>
+                <li><a href="#projects" data-section="projects">Work</a></li>
                 <li><a href="#skills" data-section="skills">Skills</a></li>
                 <li><a href="#contact" data-section="contact">Contact</a></li>
             </ul>
@@ -54,12 +52,12 @@
         <!-- =========================
              Hero
              Left: intro + badges + CTAs
-             Right: profile + floating stats
+             Right: highlight stats
         ========================== -->
         <section id="hero" class="hero" aria-label="Introduction">
             <div class="hero-container">
                 <div class="hero-left reveal">
-                    <p class="welcome">👋 Hello, I'm</p>
+                    <p class="welcome">Hello, I'm</p>
                     <h1>Mehreen Ahmed</h1>
                     <p class="role-title">Senior Android Developer</p>
                     <p class="typing-line" aria-live="polite">
@@ -68,10 +66,9 @@
                         <span class="typing-cursor" aria-hidden="true">|</span>
                     </p>
                     <p class="description">
-                        Results-driven Senior Android Developer with 4+ years in Kotlin and Java—
-                        specializing in fintech, multilingual, and consumer apps across Pakistan,
-                        KSA, and UAE. End-to-end delivery from KYC onboarding and third-party SDKs
-                        to REST APIs, Firebase, and Hilt.
+                        Senior Android Developer with 4+ years building secure, scalable apps in Kotlin and Java.
+                        Specialising in fintech, multilingual products, and consumer experiences across Pakistan, KSA, and the UAE.
+                        Trusted with end-to-end delivery from KYC onboarding and third-party SDKs to REST APIs, Firebase, and Hilt.
                     </p>
 
                     <div class="badges" aria-label="Core technologies">
@@ -84,7 +81,7 @@
                     </div>
 
                     <div class="hero-buttons">
-                        <a href="#projects" class="primary-btn">View Projects</a>
+                        <a href="#projects" class="primary-btn">View Work</a>
                         <a href="assets/resume/MehreenAhmed.pdf" class="secondary-btn" download>
                             Download Resume
                         </a>
@@ -92,26 +89,14 @@
                 </div>
 
                 <div class="hero-right reveal reveal-delay-2">
-                    <div class="profile-wrap">
-                        <div class="profile-ring" aria-hidden="true"></div>
-                        <div class="profile-card">
-                            <img
-                                src="assets/images/profilepic.jpeg"
-                                alt="Portrait of Mehreen Ahmed, Senior Android Developer"
-                                width="380"
-                                height="380"
-                                fetchpriority="high">
-                        </div>
-                    </div>
-
-                    <div class="stat-cards" aria-label="Highlights">
+                    <div class="stat-panel" aria-label="Highlights">
                         <div class="stat-card float-a">
                             <span class="stat-value">4+</span>
                             <span class="stat-label">Years Experience</span>
                         </div>
                         <div class="stat-card float-b">
-                            <span class="stat-value">8+</span>
-                            <span class="stat-label">Published Apps</span>
+                            <span class="stat-value">12+</span>
+                            <span class="stat-label">Shipped Apps</span>
                         </div>
                         <div class="stat-card float-c">
                             <span class="stat-value">Fintech</span>
@@ -166,8 +151,8 @@
                 </article>
                 <article class="about-card reveal">
                     <div class="about-icon" aria-hidden="true">🚀</div>
-                    <h3>Published Apps</h3>
-                    <p>8+ production apps across fintech, booking, retail, and kitchen platforms.</p>
+                    <h3>12+ Shipped Apps</h3>
+                    <p>Production apps across fintech, booking, family platforms, streaming, and tools.</p>
                 </article>
                 <article class="about-card reveal">
                     <div class="about-icon" aria-hidden="true">🌍</div>
@@ -363,20 +348,25 @@
         </section>
 
         <!-- =========================
-             Projects — premium cards + modal
+             Work — featured + also shipped
         ========================== -->
         <section id="projects" class="section" aria-labelledby="projects-title">
             <div class="section-header reveal">
-                <p class="section-eyebrow">Projects</p>
-                <h2 id="projects-title">Selected work</h2>
+                <p class="section-eyebrow">Portfolio</p>
+                <h2 id="projects-title">Apps I've shipped</h2>
                 <p class="section-lead">
-                    Fintech wallets, ride booking, ticketing, and Arabic family platforms—
-                    backed by real Play Store and product links.
+                    Secure wallets, ride booking, family platforms, and streaming apps shipped for teams across Pakistan, KSA, and the UAE.
                 </p>
             </div>
 
-            <div class="projects-grid" id="projectsGrid">
-                <!-- Cards injected / also present for no-JS fallback via HTML below -->
+            <div class="projects-featured">
+                <h3 class="projects-group-title reveal">Featured</h3>
+                <div class="projects-grid" id="featuredGrid"></div>
+            </div>
+
+            <div class="projects-more">
+                <h3 class="projects-group-title reveal">Also shipped</h3>
+                <div class="projects-grid projects-grid-compact" id="moreGrid"></div>
             </div>
         </section>
 
@@ -483,7 +473,7 @@
                 <p class="section-eyebrow">Contact</p>
                 <h2 id="contact-title">Let's build something reliable</h2>
                 <p class="section-lead">
-                    Open to fintech and product Android roles—reach out anytime.
+                    Open to fintech and product Android roles. Let's talk about your next release.
                 </p>
             </div>
 
@@ -603,11 +593,13 @@
             <div class="modal-accent" id="modalAccent" aria-hidden="true"></div>
             <div class="modal-visual" id="modalVisual"></div>
             <div class="modal-content">
+                <p class="modal-role" id="modalRole"></p>
                 <h2 id="modalTitle"></h2>
+                <p class="modal-subtitle" id="modalSubtitle"></p>
                 <p id="modalDescription"></p>
                 <h3>Technologies</h3>
                 <div class="tech-row" id="modalTech"></div>
-                <h3>Responsibilities</h3>
+                <h3>Major contributions</h3>
                 <ul id="modalResponsibilities"></ul>
                 <div class="modal-actions" id="modalActions"></div>
             </div>
