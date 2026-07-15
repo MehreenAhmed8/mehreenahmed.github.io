@@ -291,6 +291,38 @@
             },
         },
         {
+            id: "trading-view",
+            featured: false,
+            title: "Trading View",
+            subtitle: "Flutter · Clean Architecture · Market Dashboard",
+            role: "Application Developer",
+            description:
+                "Flutter market dashboard for gold, silver, Bitcoin, and Ethereum—live prices, sparkline charts, trading signals, and news.",
+            longDescription:
+                "Built a polished Flutter market dashboard with Clean Architecture and BLoC that tracks gold, silver, Bitcoin, and Ethereum in real time via CoinGecko. Features include 7-day sparkline charts, expandable asset detail sheets, data-driven trading signals (RSI, SMA, momentum, support/resistance) with confidence scores and transparent reasoning, plus a financial news feed from public RSS sources—dark-first UI with DM Sans typography and resilient offline caching.",
+            icon: "📈",
+            image: "assets/images/projects/trading-view.jpg",
+            images: [
+                "assets/images/projects/trading-view-1.jpg",
+                "assets/images/projects/trading-view-2.jpg",
+                "assets/images/projects/trading-view-3.jpg",
+            ],
+            imageFit: "contain",
+            accent: "#C9A227",
+            tech: ["Flutter", "Dart", "BLoC", "Clean Architecture", "CoinGecko API", "google_fonts"],
+            responsibilities: [
+                "Designed Clean Architecture layers with BLoC for markets and news",
+                "Built live asset cards with custom-painted sparkline charts and detail sheets",
+                "Implemented technical signal analysis (RSI, SMA, momentum, S/R) with reasoning",
+                "Shipped a dark-first trading UI with auto-refresh, offline cache, and RSS news",
+            ],
+            links: {
+                playStore: null,
+                live: null,
+                github: "https://github.com/MehreenAhmed8/trading_view",
+            },
+        },
+        {
             id: "yap-uae",
             featured: false,
             title: "YAP UAE",
