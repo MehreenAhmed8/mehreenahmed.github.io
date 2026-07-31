@@ -13,11 +13,11 @@
             featured: true,
             title: "YAP Pakistan",
             subtitle: "The Digital Family Wallet",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Cutting-edge fintech app offering digital wallets, secure transactions, and financial services tailored for users in Pakistan.",
+                "Digital wallet for Pakistan families: transfers, beneficiaries, virtual cards, and onboarding in a regulated fintech product.",
             longDescription:
-                "Developed YAP Pakistan from scratch—a fintech app offering digital wallets, secure transactions, and financial services for users in Pakistan. Integrated financial APIs for fast, secure payments and optimised app stability for a seamless experience.",
+                "Problem: families needed a reliable way to pay, save, and transfer money on mobile. I helped build YAP Pakistan from scratch with Kotlin, financial APIs, MVVM, and Firebase. Key work included local, international, and YAP-to-YAP transfers, beneficiaries, virtual cards, and customer onboarding. Impact: faster, more stable payment journeys for production users on Google Play.",
             icon: "💳",
             image: "assets/images/projects/yap-pakistan.jpg",
             images: [
@@ -29,10 +29,10 @@
             accent: "#6750A4",
             tech: ["Kotlin", "Android", "Financial APIs", "MVVM", "Firebase"],
             responsibilities: [
-                "Worked on local, international, and YAP-to-YAP money transfers",
-                "Built Add Beneficiary flows",
-                "Implemented virtual card features",
-                "Delivered customer onboarding experiences",
+                "Built local, international, and YAP-to-YAP money transfers",
+                "Shipped Add Beneficiary and virtual card flows",
+                "Delivered customer onboarding for wallet activation",
+                "Integrated financial APIs for secure payment operations",
             ],
             links: {
                 playStore: "https://play.google.com/store/apps/details?id=com.yappakistan.app&hl=en",
@@ -45,11 +45,11 @@
             featured: true,
             title: "Short Video Streaming App",
             subtitle: "Kotlin · Media3 ExoPlayer · HLS",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "TikTok-style vertical video feed with HLS adaptive streaming, auto-play, intelligent buffering, and lifecycle-aware playback.",
+                "Vertical short-video feed with HLS streaming, auto-play, buffering, and lifecycle-aware playback.",
             longDescription:
-                "Developed a high-performance short video streaming Android app using Kotlin, Jetpack Compose, and Media3 ExoPlayer. Features include a vertical video feed, HLS adaptive streaming, auto-play, intelligent buffering, video preloading, and lifecycle-aware playback—built with MVVM, Clean Architecture, Hilt, Retrofit, Coroutines, and Room. Backend-ready for a custom streaming server.",
+                "Problem: the product needed a TikTok-style feed that stays smooth on mid-range devices. I built the Android app with Kotlin, Jetpack Compose, and Media3 ExoPlayer using MVVM, Clean Architecture, Hilt, Retrofit, Coroutines, and Room. Key work covered HLS adaptive streaming, auto-play, preloading, and lifecycle-aware playback. Impact: a backend-ready streaming client with maintainable architecture for future growth.",
             icon: "🎬",
             image: "assets/images/projects/short-video.jpg",
             images: ["assets/images/projects/short-video-1.jpg"],
@@ -57,10 +57,10 @@
             accent: "#111827",
             tech: ["Kotlin", "Jetpack Compose", "Media3 ExoPlayer", "HLS", "MVVM", "Hilt", "Room"],
             responsibilities: [
-                "Built TikTok-style vertical feed with Compose",
+                "Built the vertical video feed in Jetpack Compose",
                 "Integrated Media3 ExoPlayer with HLS adaptive streaming",
                 "Implemented auto-play, preloading, and lifecycle-aware playback",
-                "Architected with MVVM, Clean Architecture, Hilt, Retrofit, Coroutines, and Room",
+                "Structured the app with MVVM, Clean Architecture, Hilt, and Room",
             ],
             links: { playStore: null, live: null, github: null },
         },
@@ -69,11 +69,11 @@
             featured: true,
             title: "Al-Jumaih",
             subtitle: "Arabic Family Management & Social Platform",
-            role: "Native Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Private family networking app with digital directory, family tree, document preservation, and social tools—full Arabic RTL support.",
+                "Private family networking app with directory, family tree, document archive, and Arabic RTL support.",
             longDescription:
-                "Developed Al-Jumaih, a private family networking app for one of Saudi Arabia's leading family groups. Built a digital family directory, family tree, document & manuscript preservation, and social engagement tools using Kotlin, MVVM, REST APIs, and Firebase, with full Arabic (RTL) and multilingual support. Focused on performance, scalability, and clean architecture.",
+                "Problem: a large Saudi family needed one private app for lineage, documents, and member connection. I developed Al-Jumaih in Kotlin with MVVM, REST APIs, and Firebase, including full Arabic RTL. Key work covered the digital directory, family tree, manuscript preservation, and social tools. Impact: a production Play Store app that keeps family records and engagement in one place.",
             icon: "📜",
             image: "assets/images/projects/al-jumaih.jpg",
             images: [
@@ -88,8 +88,8 @@
             responsibilities: [
                 "Built digital family directory and family tree features",
                 "Implemented document and manuscript preservation tools",
-                "Delivered social engagement experiences with Arabic RTL layouts",
-                "Ensured performance and scalability with clean architecture",
+                "Delivered social features with Arabic RTL layouts",
+                "Shipped a scalable production release on Google Play",
             ],
             links: {
                 playStore: "https://play.google.com/store/apps/details?id=com.ime.aljumaih",
@@ -102,11 +102,11 @@
             featured: true,
             title: "Al-Kazi",
             subtitle: "Arabic Family Social Platform",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Arabic family social app—content sharing, image posts, family news feeds, and in-app chat.",
+                "Arabic family social app with news, gallery, directory, chat, and notification controls.",
             longDescription:
-                "Built Al-Kazi (القاضي), an Arabic family social platform delivering content sharing, image posts, family news feeds, directory search, notification preferences, and in-app chat for Arabic-speaking families—implemented with Kotlin and Firebase, full RTL support, and published on Google Play.",
+                "Problem: Arabic-speaking families needed a private space for news, photos, and member discovery. I built Al-Kazi (القاضي) with Kotlin and Firebase, full RTL support, and Play Store publishing. Key work covered home navigation, news feed, gallery, lineage, directory search, and notification settings. Impact: a live family platform that keeps members informed and connected.",
             icon: "👨‍👩‍👧‍👦",
             image: "assets/images/projects/al-kazi.jpg",
             images: [
@@ -122,10 +122,10 @@
             accent: "#A67C52",
             tech: ["Kotlin", "Firebase", "Chat", "MVVM", "RTL / Arabic"],
             responsibilities: [
-                "Delivered home navigation, news feed, gallery, and lineage experiences",
+                "Delivered home, news, gallery, and lineage experiences",
                 "Built family directory search and profile browsing",
-                "Implemented notification settings and Arabic RTL-first layouts",
-                "Shipped a production Play Store release with Firebase backends",
+                "Implemented notification settings with Arabic RTL layouts",
+                "Published and maintained the Google Play release",
             ],
             links: {
                 playStore: "https://play.google.com/store/apps/details?id=com.ime.alkadi&hl=en",
@@ -138,11 +138,11 @@
             featured: true,
             title: "Al-Rais",
             subtitle: "Family Heritage & Genealogy",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Genealogy reference app for the Al-Rais family—lineage records for 700,000+ members worldwide.",
+                "Genealogy and heritage app for the Al-Rais family: lineage, news, library, and directory.",
             longDescription:
-                "Built Al-Rais (الريس), a family heritage and genealogy reference app delivering documented family history, lineage records, news, library, directory, and notable personalities for the Al-Rais family (700,000+ members worldwide), with roots in Hajar al-Yamamah, central Saudi Arabia—full Arabic RTL with a forest-green branded UI.",
+                "Problem: a family of 700,000+ members needed a digital home for history and lineage. I built Al-Rais (الريس) with Kotlin, Firebase, MVVM, REST APIs, and Arabic RTL. Key work covered dashboard, news, lineage, library, directory, and personalities. Impact: a branded Play Store app that preserves family records at scale.",
             icon: "🌳",
             image: "assets/images/projects/al-rais.jpg",
             images: [
@@ -157,9 +157,9 @@
             accent: "#1B4332",
             tech: ["Kotlin", "Firebase", "MVVM", "RTL / Arabic", "REST APIs"],
             responsibilities: [
-                "Delivered dashboard, news feed, lineage, and library experiences",
+                "Delivered dashboard, news, lineage, and library screens",
                 "Built family tree, directory, and personality browsing",
-                "Implemented Arabic RTL layouts with a cohesive green brand system",
+                "Implemented Arabic RTL layouts with a consistent brand system",
                 "Published and maintained the Google Play release",
             ],
             links: {
@@ -173,11 +173,11 @@
             featured: true,
             title: "Ikram",
             subtitle: "GPS-Based Grave Locator App",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Charitable GPS app that helps users locate graves of loved ones in organised cemeteries worldwide.",
+                "Charitable GPS app that helps families find graves in organised cemeteries with map navigation.",
             longDescription:
-                "Developed Ikram, a charitable initiative designed to help users locate graves of loved ones in organised cemeteries worldwide using GPS technology—with map-based navigation, performance optimisation, and an accessible, intuitive UI.",
+                "Problem: visitors struggled to locate graves in large organised cemeteries. I developed Ikram with Kotlin, GPS, and Google Maps API. Key work covered real-time location search, map navigation, and a clear, accessible UI. Impact: a published Play Store tool that makes cemetery visits easier for families.",
             icon: "📍",
             image: "assets/images/projects/ikram.jpg",
             images: ["assets/images/projects/ikram-1.jpg"],
@@ -186,9 +186,9 @@
             tech: ["Kotlin", "Android", "GPS", "Google Maps API"],
             responsibilities: [
                 "Built GPS-based grave search with real-time location",
-                "Integrated map-based navigation for cemetery exploration",
+                "Integrated map navigation for cemetery exploration",
                 "Optimised performance for a smooth, reliable experience",
-                "Designed an accessible and intuitive UI/UX",
+                "Designed an accessible, easy-to-use interface",
             ],
             links: {
                 playStore: "https://play.google.com/store/apps/details?id=com.ime.alikram&hl=en",
@@ -201,11 +201,11 @@
             featured: true,
             title: "Dirxi",
             subtitle: "Ride Booking Android Application",
-            role: "Native Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Ride-booking module and Compose UI for a commercial ride-hailing app—Maps, REST APIs, and real-time location.",
+                "Ride-booking module and Compose UI for a commercial ride-hailing app with Maps and live location.",
             longDescription:
-                "Developed the ride booking module and UI for Dirxi, a commercial ride-hailing app, using Kotlin and Jetpack Compose. Built responsive Android screens and integrated Google Maps, REST APIs, and real-time location services. Collaborated with backend and UI/UX teams while following MVVM and Clean Architecture, focusing on maintainable code and a smooth production experience.",
+                "Problem: Dirxi needed a dependable booking experience for riders in production. I built the booking module and UI with Kotlin and Jetpack Compose, integrating Google Maps, REST APIs, and real-time location under MVVM and Clean Architecture. Impact: smoother booking flows and a maintainable codebase for ongoing product releases.",
             icon: "🚗",
             image: "assets/images/projects/dirxi.jpg",
             images: ["assets/images/projects/dirxi-1.jpg"],
@@ -214,8 +214,8 @@
             tech: ["Kotlin", "Jetpack Compose", "Google Maps API", "Clean Architecture", "Android SDK"],
             responsibilities: [
                 "Built the ride booking module and responsive Compose screens",
-                "Integrated Google Maps, REST APIs, and real-time location services",
-                "Followed MVVM and Clean Architecture with the backend / design teams",
+                "Integrated Google Maps, REST APIs, and real-time location",
+                "Applied MVVM and Clean Architecture with product and backend teams",
                 "Optimised performance for a smooth production booking flow",
             ],
             links: {
@@ -229,11 +229,11 @@
             featured: true,
             title: "TicketLake",
             subtitle: "Event Ticketing Platform",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Event ticketing app—browse events, explore details, personalise interests, and track movies with a bold red UI.",
+                "Event ticketing app for browsing events, details, interests, and cinema schedules.",
             longDescription:
-                "At Synavos I developed core Android features for TicketLake including event listing, detailed event pages (maps, celebs, ticket classes), interest onboarding, and movie tracking. Optimised RecyclerView and image-loading pipelines (~30% smoother UI) and added Firebase Analytics plus FCM for re-engagement.",
+                "Problem: users needed one place to discover events, tickets, and movies. At Synavos I built core Android features for TicketLake: event listing, detail pages, interest onboarding, and movie tracking with Kotlin, RecyclerView, Firebase, and FCM. Impact: smoother lists (~30% better UI smoothness) and higher re-engagement (+18%) through push notifications.",
             icon: "🎫",
             image: "assets/images/projects/ticketlake.jpg",
             images: [
@@ -246,8 +246,8 @@
             accent: "#DC2626",
             tech: ["Kotlin", "Android SDK", "RecyclerView", "QR Scanning", "Firebase", "FCM"],
             responsibilities: [
-                "Built event listing, detail pages, and interest personalisation flows",
-                "Implemented movie browsing with cinema location and schedule data",
+                "Built event listing, detail pages, and interest onboarding",
+                "Implemented movie browsing with cinema location and schedules",
                 "Optimised RecyclerView and image-loading pipelines",
                 "Added Firebase Analytics and Cloud Messaging for engagement",
             ],
@@ -262,11 +262,11 @@
             featured: true,
             title: "Personal Expense Tracker",
             subtitle: "Flutter · Dart · Cross-platform",
-            role: "Application Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Full-featured Flutter expense tracker for iOS and Android—categories, charts, and local persistence.",
+                "Flutter expense tracker for iOS and Android: categories, charts, and local persistence.",
             longDescription:
-                "Built a full-featured personal expense tracker with Flutter and Dart for both iOS and Android from a single codebase. Users manage daily spending with an intuitive UI, visual analytics, and category-based tracking—including add/edit/delete expenses, filtering, charts, Material Design UI, and local data persistence.",
+                "Problem: users needed a simple way to track daily spending on both platforms. I built a Flutter and Dart app from one codebase with Material UI, category filtering, charts, and local persistence. Key work covered add/edit/delete expenses and visual spending breakdowns. Impact: a polished cross-platform demo of my growing Flutter skills alongside native Android work.",
             icon: "💰",
             image: "assets/images/projects/expense-tracker.jpg",
             images: [
@@ -279,9 +279,9 @@
             accent: "#059669",
             tech: ["Flutter", "Dart", "Material Design", "Local Persistence", "Testing"],
             responsibilities: [
-                "Shipped add, edit, and delete expense flows with categories and dates",
-                "Built category filtering (Food, Travel, Work, Leisure, and more)",
-                "Added visual spending breakdown with charts and graphs",
+                "Shipped add, edit, and delete expense flows with categories",
+                "Built category filtering for Food, Travel, Work, Leisure, and more",
+                "Added visual spending breakdown with charts",
                 "Delivered responsive Material UI with local data persistence",
             ],
             links: {
@@ -295,11 +295,11 @@
             featured: false,
             title: "Trading View",
             subtitle: "Flutter · Clean Architecture · Market Dashboard",
-            role: "Application Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Flutter market dashboard for gold, silver, Bitcoin, and Ethereum—live prices, sparkline charts, trading signals, and news.",
+                "Flutter market dashboard for gold, silver, Bitcoin, and Ethereum with charts, signals, and news.",
             longDescription:
-                "Built a polished Flutter market dashboard with Clean Architecture and BLoC that tracks gold, silver, Bitcoin, and Ethereum in real time via CoinGecko. Features include 7-day sparkline charts, expandable asset detail sheets, data-driven trading signals (RSI, SMA, momentum, support/resistance) with confidence scores and transparent reasoning, plus a financial news feed from public RSS sources—dark-first UI with DM Sans typography and resilient offline caching.",
+                "Problem: traders needed a clear mobile view of live prices and simple technical signals. I built a Flutter dashboard with Clean Architecture and BLoC using CoinGecko for live prices, sparkline charts, trading signals, and an RSS news feed. Impact: a dark-first market app that shows my Flutter growth with clean architecture and offline-friendly caching.",
             icon: "📈",
             image: "assets/images/projects/trading-view.jpg",
             images: [
@@ -312,9 +312,9 @@
             tech: ["Flutter", "Dart", "BLoC", "Clean Architecture", "CoinGecko API", "google_fonts"],
             responsibilities: [
                 "Designed Clean Architecture layers with BLoC for markets and news",
-                "Built live asset cards with custom-painted sparkline charts and detail sheets",
-                "Implemented technical signal analysis (RSI, SMA, momentum, S/R) with reasoning",
-                "Shipped a dark-first trading UI with auto-refresh, offline cache, and RSS news",
+                "Built live asset cards with sparkline charts and detail sheets",
+                "Implemented technical signal analysis with clear reasoning",
+                "Shipped dark-first UI with auto-refresh, offline cache, and RSS news",
             ],
             links: {
                 playStore: null,
@@ -327,11 +327,11 @@
             featured: false,
             title: "YAP UAE",
             subtitle: "Regional Digital Wallet",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Fintech wallet for the UAE—KYC onboarding, identity verification SDKs, and localized wallet flows.",
+                "UAE digital wallet features focused on KYC onboarding and identity verification.",
             longDescription:
-                "Delivered Android features for YAP UAE focused on customer KYC onboarding and Flutter SDK–based identity verification, helping reduce onboarding time by ~30% while integrating financial APIs and compliance workflows across the UAE market.",
+                "Problem: the UAE wallet needed faster, compliant customer onboarding. I delivered Android features for YAP UAE with Kotlin, MVVM, Navigation, KYC SDKs, and financial APIs, including Flutter SDK–based identity verification. Impact: onboarding time reduced by ~30% while meeting regional compliance needs.",
             icon: "🏦",
             image: "assets/images/projects/yap-uae.svg",
             images: ["assets/images/projects/yap-uae.svg"],
@@ -340,9 +340,9 @@
             tech: ["Kotlin", "MVVM", "Jetpack Navigation", "KYC SDKs", "Financial APIs"],
             responsibilities: [
                 "Delivered KYC onboarding and liveness verification for the UAE wallet",
-                "Integrated financial APIs and third-party identity verification SDKs",
+                "Integrated financial APIs and third-party identity SDKs",
                 "Implemented MVVM with Jetpack Navigation",
-                "Contributed to Agile milestones across regional fintech deliveries",
+                "Supported Agile milestones across regional fintech releases",
             ],
             links: {
                 playStore: null,
@@ -355,11 +355,11 @@
             featured: false,
             title: "YAP KSA",
             subtitle: "Saudi Digital Wallet",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "Saudi Arabia wallet with Arabic-ready KYC, identity verification, and regulated fintech flows.",
+                "Saudi digital wallet with Arabic-ready KYC, ID scanning, and compliance workflows.",
             longDescription:
-                "Built and shipped YAP KSA Android features—customer KYC, ID scanning via Flutter SDK, and market-specific compliance workflows that cut onboarding time by ~30% for the Saudi market.",
+                "Problem: the KSA market required Arabic-ready onboarding and identity checks. I shipped YAP KSA Android features with Kotlin, MVVM, Clean Architecture, KYC, and RTL support, including ID scanning via Flutter SDK. Impact: onboarding time cut by ~30% for the Saudi wallet release.",
             icon: "🇸🇦",
             image: "assets/images/projects/yap-ksa.svg",
             images: ["assets/images/projects/yap-ksa.svg"],
@@ -368,9 +368,9 @@
             tech: ["Kotlin", "MVVM", "Clean Architecture", "KYC", "RTL"],
             responsibilities: [
                 "Shipped KYC and liveness verification for the KSA market",
-                "Streamlined regulatory compliance workflows with identity SDKs",
+                "Streamlined compliance workflows with identity SDKs",
                 "Reduced onboarding time by ~30% across regional deliveries",
-                "Improved maintainability via Navigation Component and MVVM",
+                "Improved maintainability with Navigation Component and MVVM",
             ],
             links: {
                 playStore: null,
@@ -383,11 +383,11 @@
             featured: false,
             title: "German Kitchen App",
             subtitle: "Restaurant Order Lifecycle",
-            role: "Android Developer",
+            role: "Mobile Application Engineer",
             description:
-                "German-language kitchen order system—Received → Preparing → Delivered for restaurant machines.",
+                "German kitchen order system with Received, Preparing, and Delivered states for restaurant machines.",
             longDescription:
-                "Developed a German-language kitchen order management app for restaurant order-taking machines—similar to a chef-side food delivery system—where staff punch orders that flow through Received, Preparing, and Delivered states in real time, built end-to-end in Kotlin with a custom order lifecycle.",
+                "Problem: kitchen staff needed a clear order board on restaurant machines. I built an end-to-end Kotlin app with a custom order lifecycle and German localisation. Key work covered real-time Received → Preparing → Delivered states. Impact: faster kitchen coordination for German-speaking restaurant teams.",
             icon: "🍳",
             image: "assets/images/projects/german-kitchen.svg",
             images: ["assets/images/projects/german-kitchen.svg"],
@@ -396,9 +396,9 @@
             tech: ["Kotlin", "Order Lifecycle", "German L10n", "Real-time State", "MVVM"],
             responsibilities: [
                 "Built end-to-end kitchen order management for restaurant machines",
-                "Implemented Received → Preparing → Delivered real-time order states",
-                "Localised the experience for German-speaking staff workflows",
-                "Owned delivery from client requirements through production handover",
+                "Implemented Received → Preparing → Delivered real-time states",
+                "Localised the experience for German-speaking staff",
+                "Owned delivery from requirements through production handover",
             ],
             links: { playStore: null, live: null, github: null },
         },
@@ -406,10 +406,11 @@
 
     /* ---------- Typing animation ---------- */
     const roles = [
-        "Fintech Applications",
+        "Fintech Mobile Apps",
         "Digital Wallets",
-        "Ride Booking Apps",
-        "Consumer Applications",
+        "Ride-Hailing Apps",
+        "Kotlin Android Apps",
+        "Flutter Mobile Apps",
     ];
 
     const typingEl = document.getElementById("typing");

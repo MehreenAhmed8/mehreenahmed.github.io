@@ -545,6 +545,19 @@ button {
 }
 
 /* =========================
+   What Drives Me
+========================= */
+
+.drives-explore {
+    width: min(92%, var(--max));
+    margin: 0 auto;
+}
+
+.drives-explore .chips {
+    margin-top: 4px;
+}
+
+/* =========================
    Experience timeline
 ========================= */
 
