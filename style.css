@@ -550,6 +550,7 @@ button {
 
 .drives-explore {
     width: min(92%, var(--max));
+    max-width: 640px;
     margin: 0 auto;
 }
 
